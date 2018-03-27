@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		893804BB206AE35500E33860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893804BA206AE35500E33860 /* AppDelegate.swift */; };
-		893804BD206AE35500E33860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893804BC206AE35500E33860 /* ViewController.swift */; };
+		893804BD206AE35500E33860 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893804BC206AE35500E33860 /* FirstViewController.swift */; };
 		893804C0206AE35500E33860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893804BE206AE35500E33860 /* Main.storyboard */; };
 		893804C2206AE35500E33860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893804C1206AE35500E33860 /* Assets.xcassets */; };
 		893804C5206AE35500E33860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893804C3206AE35500E33860 /* LaunchScreen.storyboard */; };
 		893804D0206AE35500E33860 /* Delegates_and_ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893804CF206AE35500E33860 /* Delegates_and_ProtocolsTests.swift */; };
 		893804DB206AE35500E33860 /* Delegates_and_ProtocolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893804DA206AE35500E33860 /* Delegates_and_ProtocolsUITests.swift */; };
+		893804E9206AE64800E33860 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893804E8206AE64800E33860 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		893804B7206AE35500E33860 /* Delegates and Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegates and Protocols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		893804BA206AE35500E33860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		893804BC206AE35500E33860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		893804BC206AE35500E33860 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		893804BF206AE35500E33860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		893804C1206AE35500E33860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		893804C4206AE35500E33860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		893804D6206AE35500E33860 /* Delegates and ProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delegates and ProtocolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		893804DA206AE35500E33860 /* Delegates_and_ProtocolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates_and_ProtocolsUITests.swift; sourceTree = "<group>"; };
 		893804DC206AE35500E33860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893804E8206AE64800E33860 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				893804BA206AE35500E33860 /* AppDelegate.swift */,
-				893804BC206AE35500E33860 /* ViewController.swift */,
+				893804BC206AE35500E33860 /* FirstViewController.swift */,
+				893804E8206AE64800E33860 /* SecondViewController.swift */,
 				893804BE206AE35500E33860 /* Main.storyboard */,
 				893804C1206AE35500E33860 /* Assets.xcassets */,
 				893804C3206AE35500E33860 /* LaunchScreen.storyboard */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893804BD206AE35500E33860 /* ViewController.swift in Sources */,
+				893804E9206AE64800E33860 /* SecondViewController.swift in Sources */,
+				893804BD206AE35500E33860 /* FirstViewController.swift in Sources */,
 				893804BB206AE35500E33860 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
